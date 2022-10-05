@@ -6,6 +6,6 @@
     <p>https://dog.ceo/dog-api/</p>
 </div>
 
-
 <style>
+    /* all the style is in the app.css */
 </style>

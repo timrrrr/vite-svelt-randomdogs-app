@@ -1,7 +1,4 @@
-
-
 <script lang="ts">
-    // import {IResult} from './interfaces/api.interface'
     let src = "123";
 
     const fetchDog = () => {
@@ -12,12 +9,8 @@
                 src = result.message
             })
             .catch(err => console.log(err))
-
-        // src = fetch("https://dog.ceo/api/breeds/image/random").json
     }
 </script>
-
-
 
 <div class="half">
     <button on:click={fetchDog}>
@@ -30,11 +23,10 @@
 
 <style>
     .half {
-    /* display: flex; */
-    float: left;
-    width: 50%;
-    background-color: rgb(255, 255, 255);
-    height: 1000px;
+        float: left;
+        width: 50%;
+        background-color: rgb(255, 255, 255);
+        height: 1000px;
     }
 
     button {
