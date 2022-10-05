@@ -23,7 +23,31 @@
     <button on:click={fetchDog}>
         fetch a new dog
     </button>
-    <img src={src}>
-
-    
+    <br>
+    <img src={src} alt="random dog" width="90%">
 </div>
+
+
+<style>
+    .half {
+    /* display: flex; */
+    float: left;
+    width: 50%;
+    background-color: rgb(255, 255, 255);
+    height: 1000px;
+    }
+
+    button {
+        width: 90%;
+        background: none;
+        color: white;
+        border: none;
+        padding: 0;
+        font: inherit;
+        cursor: pointer;
+        outline: inherit;
+        background-color: black;
+        margin-top: 20px;
+        height: 40px;
+    }
+</style>

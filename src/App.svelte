@@ -1,17 +1,28 @@
 <script lang="ts">
-  import svelteLogo from './assets/svelte.svg'
-  import Counter from './lib/Counter.svelte'
+  // import svelteLogo from './assets/svelte.svg'
+  // import Counter from './lib/Counter.svelte'
   import DogFetcher from './lib/DogFetcher.svelte'
+  import About from './lib/About.svelte';
+  import Content from './lib/Content.svelte';
+  import Header from './lib/Header.svelte';
 </script>
 
 <main>
-  <DogFetcher>
-    
-  </DogFetcher>
+  <Header></Header>
+  <div class = content>
+    <DogFetcher></DogFetcher>
+    <About></About>
+  </div>
 </main>
 
 <style>
-  .logo {
+  main {
+    background-color: white;
+    width: 100%;
+  }
+
+
+  /* .logo {
     height: 6em;
     padding: 1.5em;
     will-change: filter;
@@ -24,5 +35,5 @@
   }
   .read-the-docs {
     color: #888;
-  }
+  } */
 </style>
